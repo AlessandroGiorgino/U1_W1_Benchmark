@@ -1,0 +1,169 @@
+/* Your styles here */
+/* QUI IMPORT DEI FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+
+/* QUI STYLE DI HEADING ETC */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+body {
+  height: 100vh;
+  max-width: 500px;
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+
+/* QUI HEADER */
+header {
+  background-color: black;
+  height: 15vh;
+  text-align: center;
+}
+.logo {
+  width: 40%;
+  padding: 2em;
+}
+
+/* QUI div mega */
+#mega {
+  width: 100%;
+}
+
+/* QUI MAIN */
+
+/* QUI SECTION CORSO */
+
+#corso {
+  height: 50vh;
+  background-image: url(/assets/images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 2.3em;
+}
+#corso h1 {
+  padding: 1.5em;
+  font-size: 2.3rem;
+  line-height: 1.1;
+}
+#corso p {
+  margin: 0em 1em 0em 1em;
+}
+#corso button {
+  margin-top: 1.5em;
+  height: 4em;
+  width: 12em;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3em;
+  color: white;
+}
+
+/* QUI ARTICLE TONDA */
+#tonda h2,
+h3,
+p {
+  text-align: center;
+  margin: 1em 1em 1em 1em;
+}
+
+.computer {
+  height: 13em;
+  width: 13em;
+  margin: auto;
+  background-image: url(/assets/images/notebook.jpg);
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.rosso {
+  background-color: #e22d0e;
+  height: 13em;
+  padding: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.rosso h2 {
+  color: white;
+  font-size: 1.9rem;
+}
+.rosso p {
+  color: white;
+  font-size: large;
+}
+.rosso span {
+  font-size: small;
+}
+
+.rosso p:first-of-type {
+  font-style: italic;
+  color: white;
+  font-size: medium;
+}
+
+/* QUI ASIDE */
+
+.contenitoreAside {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  text-align: center;
+  font-size: 1rem;
+  border: solid 0.3px lightgray;
+  border-radius: 0.3em;
+}
+.immagineAside {
+  width: 100%;
+}
+
+.contenitoreAside h4 {
+  margin: 1em 0em 1.5em 0em;
+}
+
+/* QUI FOOTER */
+footer {
+  background-color: #25a2c3;
+  text-align: center;
+  padding: 3em;
+  color: #c8e7f0;
+  list-style-type: none;
+}
+footer h2 {
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 0.5em;
+}
+footer a,
+li {
+  color: white;
+  list-style-type: none;
+}
+footer p {
+  display: inline;
+  margin-left: 0;
+  font-size: 1rem;
+}
+footer hr {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 60%;
+}
